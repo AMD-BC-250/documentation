@@ -7,11 +7,14 @@ sudo zypper addrepo -f -p 90 https://download.opensuse.org/repositories/home:mix
 sudo zypper refresh
 sudo zypper dup --allow-vendor-change
 
+#install -> vulkan
+sudo zypper install libvulkan_radeon vulkan-tools
+
 #install -> openCL
-sudo zypper install Mesa-libRusticlOpenCL
+sudo zypper install clinfo Mesa-libRusticlOpenCL
 
 #install -> info
-sudo zypper install amdgpu_top clinfo htop libva-utils
+sudo zypper install amdgpu_top htop libva-utils
 
 #install -> AMD BC-250 board support packages
 sudo zypper install amd-bc-250
