@@ -1,4 +1,4 @@
-# AMD BC-250 Documentations
+# AMD BC-250 Documentation
 
 ## 1. Installation
 
