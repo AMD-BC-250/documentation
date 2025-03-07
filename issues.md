@@ -1,6 +1,6 @@
 | project                | issue                              | status                    | comments                                                                                                         |
 |------------------------|------------------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------|
-| kde/pio                | broken UID generation for          |⌛ in progress               |                                                                                                                  | 
+| kde/pio                | broken UID generation              |⌛ in progress               |                                                                                                                  | 
 | kernel/pm/acpi_cpufreq | no CPU frequency control           |❓ not started               |                                                                                                                  |    
 | kernel/pm/amd_pstate   | no support                         |❓ not started               |                                                                                                                  |    
 | kernel/amdgpu/vcn      | no VCN support                     |⌛ in progress               |                                                                                                                  |
