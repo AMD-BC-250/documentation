@@ -18,7 +18,7 @@ else
     sed -i '2s/^/exclude=mesa*\n/' /etc/yum.repos.d/fedora-updates.repo
 fi
 dnf copr enable mixaill/amd-bc-250 -y
-dnf upgrade -y
+dnf upgrade --refresh -y
 
 # make sure radv_debug option is set in environment
 echo -n "Setting RADV_DEBUG option... "
