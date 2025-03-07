@@ -11,7 +11,7 @@
 | kernel/hwmon/nct6683   | no AMD BC-250 support              |✅ fixed in Linux 6.15-rc1 | [linux-hwmon patch](https://lore.kernel.org/linux-hwmon/610dd1b9-c8f1-4ded-a1bb-108121b566d3@roeck-us.net/T/#t)  |
 | mangohud               | broken GPU usage reporting         |⌛ in progress             |                                                                                                                  |  
 | mangohud               | broken GPU clock reporting         |✅ fixed in Mangohud 0.8.1 | [mangohud commit](https://github.com/flightlessmango/MangoHud/commit/f60145c288610145b172af4f0dff49697337abc4) [mangohud commit](https://github.com/flightlessmango/MangoHud/commit/6dcd1b5c4bbd9fa1ff56337bff6d307568afc4d5)  |  
-| mangohud               | broken VRAM suage reporting        |✅ fixed in Mangohud 0.8.1 | [mangohud commit](https://github.com/flightlessmango/MangoHud/commit/2bbd81c12a9859971cc6c1456f81e3b5a75e06dd)   |  
+| mangohud               | broken VRAM usage reporting        |✅ fixed in Mangohud 0.8.1 | [mangohud commit](https://github.com/flightlessmango/MangoHud/commit/2bbd81c12a9859971cc6c1456f81e3b5a75e06dd)   |  
 | mesa                   | suboptimal memory allocation       |⌛ in progress             | [mesa issue](https://gitlab.freedesktop.org/mesa/mesa/-/issues/12713)                                            |
 | mesa                   | initial Cyan Skillfish support     |✅ fixed in Mesa 25.1      | [mesa MR](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/33116)                                       |
 | uefi                   | no memory split patch for 4.00G    |❓ not started             |                                                                                                                  |  
