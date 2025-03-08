@@ -8,3 +8,7 @@
 ## Issues and TODOs
 
 * [list of issues](issues.md)
+
+## Hardware
+
+* [board components](board_components.md)
