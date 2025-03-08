@@ -6,5 +6,6 @@
 * Voltage -- 3.3V
 * External Connector - J4004
   
-![amd-bc-250-flash drawio](https://github.com/user-attachments/assets/a00d8174-d1e4-44bd-8ae4-bdc3c39280ab)
+![amd-bc-250-flash drawio](https://github.com/user-attachments/assets/a00d8174-d1e4-44bd-8ae4-bdc3c39280ab) 
+![image](https://github.com/user-attachments/assets/bb435976-7fa2-40f2-b6cc-d562351beabc)
 
