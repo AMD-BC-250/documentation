@@ -1,6 +1,6 @@
 | project                | issue                              | status                    | comments                                                                                                         |
 |------------------------|------------------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------|
-| amd-ucode              | no RDRAND fix, no Zenbleed fixed   | ✍️ requires communication with AMD | |
+| amd-ucode              | no RDRAND fix, no Zenbleed fix     | ✍️ requires communication with AMD | |
 | kernel/pm/acpi_cpufreq | no CPU frequency control           |❓ not started             |                                                                                                                  |    
 | kernel/pm/amd_pstate   | no support                         |❓ not started             |                                                                                                                  |    
 | kernel/amdgpu/gfx      | broken compute queue               |⌛ in progress             |                                                                                                                  |
