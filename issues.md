@@ -14,4 +14,4 @@
 | mesa                   | suboptimal memory allocation       |⌛ in progress             | [mesa issue](https://gitlab.freedesktop.org/mesa/mesa/-/issues/12713)                                            |
 | mesa                   | initial Cyan Skillfish support     |✅ fixed in Mesa 25.1      | [mesa MR](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/33116)                                       |
 | uefi                   | no memory split patch for 4.00G    |❓ not started             |                                                                                                                  |  
-| qt/base                | broken QRandomGenerator::system()             |⌛ in progress             | [Qt bug](https://bugreports.qt.io/browse/QTBUG-134538)   | 
+| qt/base                | broken QRandomGenerator::system()             |🟡 workaround available | [Qt bug](https://bugreports.qt.io/browse/QTBUG-134538)   | 
