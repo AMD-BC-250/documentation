@@ -1,5 +1,6 @@
 | project                | issue                              | status                    | comments                                                                                                         |
 |------------------------|------------------------------------|---------------------------|------------------------------------------------------------------------------------------------------------------|
+| amdgpu_top             | incorrect GFX version detection    | ✅ fixed in next release  | [patch](https://github.com/Umio-Yasuno/libdrm-amdgpu-sys-rs/pull/10)
 | amd-ucode              | no RDRAND fix, no Zenbleed fix     | ✍️ requires communication with AMD | |
 | kernel/pm/acpi_cpufreq | no CPU frequency control           |❓ not started             |                                                                                                                  |    
 | kernel/pm/amd_pstate   | no support                         |❓ not started             |                                                                                                                  |    
