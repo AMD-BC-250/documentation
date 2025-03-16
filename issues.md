@@ -15,5 +15,5 @@
 | mangohud               | broken VRAM usage reporting        |✅ fixed in Mangohud 0.8.1 | [mangohud-commit](https://github.com/flightlessmango/MangoHud/commit/2bbd81c12a9859971cc6c1456f81e3b5a75e06dd)   |  
 | mesa                   | suboptimal memory allocation       |⌛ in progress             | [mesa-issue](https://gitlab.freedesktop.org/mesa/mesa/-/issues/12713)                                            |
 | mesa                   | initial Cyan Skillfish support     |✅ fixed in Mesa 25.1      | [mesa-mr](https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/33116)                                       |
-| uefi                   | no memory split patch for 4.00G    |❓ not started             |                                                                                                                  |  
+| uefi                   | no memory split patch for 5.00    |⌛ in progress            |                                                                                                                  |  
 | qt/base                | broken QRandomGenerator::system()             | ✅ fixed in next release | [qt6-bug](https://bugreports.qt.io/browse/QTBUG-134538) [qt6-patch](https://codereview.qt-project.org/c/qt/qtbase/+/630478)  | 
