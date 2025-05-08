@@ -13,7 +13,7 @@ if grep -q Nobara "/etc/system-release"; then
     echo -n "Nobara detected... "
     sed -i '2s/^/exclude=mesa*\n/' /etc/yum.repos.d/nobara.repo
 else
-    echo -n "Fedora my beloved... "
+    echo -n "Hi, Fedora... "
     sed -i '2s/^/exclude=mesa*\n/' /etc/yum.repos.d/fedora.repo
     sed -i '2s/^/exclude=mesa*\n/' /etc/yum.repos.d/fedora-updates.repo
 fi
@@ -46,6 +46,16 @@ sed -i 's/nomodeset//g' /etc/default/grub
 sed -i 's/amdgpu\.sg_display=0//g' /etc/default/grub
 grub2-mkconfig -o /etc/grub2.cfg
 
-# install mesa mesa OpenCL
-sudo dnf install mesa-libOpenCL
+# install mesa OpenCL
+sudo dnf install mesa-libOpenCL --allowerasing
+
+# add amdgpu(for sure)
+grubby --update-kernel=ALL --args=amdgpu.sg_display=0
+
+# add mitingation
+grubby --update-kernel=ALL --args=mitigations=off
+
+# that should do it
+echo "Maybe it all works, maybe it doesn't, anyway, rebooting system in 15 seconds, ctrl-C now to cancel..."
+sleep 15 && systemctl reboot
 ```
