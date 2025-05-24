@@ -14,5 +14,10 @@
 
 * [openSUSE Tumbleweed](installation_opensuse_tumbleweed.md)
 * [Fedora](installation_fedora.md)
+* [Ubuntu](installation_ubuntu.md)
+
+
+## Tuning
+
 * [Optimization tips](installation_optimization.md)
 
