@@ -1,13 +1,12 @@
 ```bash
-# add repos
-sudo zypper addrepo -f -p 95 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed packman
+# add repo
 sudo zypper addrepo -f -p 90 https://download.opensuse.org/repositories/home:mixaill:amd-bc-250/openSUSE_Tumbleweed/home:mixaill:amd-bc-250.repo
 
 # update packages
 sudo zypper refresh
 sudo zypper dup --allow-vendor-change
 
-# install AMD BC-250 board support packages
+# install AMD BC-250 board support package
 sudo zypper install amd-bc-250
 
 # start GPU governor (config file located in `/etc/amd-bc-250-gpu-governor.yaml`)
