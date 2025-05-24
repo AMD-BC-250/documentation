@@ -1,4 +1,4 @@
-# OpenSUSE configuration on AMD BC-250
+# OpenSUSE Tumbleweed configuration on AMD BC-250
 
 ## Installation script
 
