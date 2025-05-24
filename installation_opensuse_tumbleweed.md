@@ -12,11 +12,6 @@ sudo zypper dup --allow-vendor-change
 
 # install AMD BC-250 board support package
 sudo zypper install amd-bc-250
-
-# allow selinux to run Wine
-sudo setsebool -P selinuxuser_execmod 1
-sudo setsebool -P selinuxuser_execheap 1
-sudo setsebool -P selinuxuser_execstack 1
 ```
 
 Reboot the system after installation
