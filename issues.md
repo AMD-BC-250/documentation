@@ -7,7 +7,7 @@
 | kernel/amdgpu/gfx      | broken compute queue               |⌛ in progress             |                                                                                                                  |
 | kernel/amdgpu/pm       | no DPM support                     |❓ not started             |                                                                                                                  |
 | kernel/amdgpu/pm       | no GPU usage reporting             |❓ not started             |                                                                                                                  |
-| kernel/amdgpu/vcn      | no VCN support                     |⌛ in progress             |                                                                                                                  |
+| kernel/amdgpu/vcn      | no VCN support                     |💀 not planned             | [freedesktop comment](https://gitlab.freedesktop.org/drm/amd/-/issues/4077#note_2834071)                                                                                                                  |
 | kernel/hwmon/k10temp   | no Cyan Skillfish support          |✅ fixed in Linux 6.15-rc1 | [linux-patch](https://lore.kernel.org/linux-hwmon/ac2fed74-2b68-4dec-a44b-2784e4bc346b@roeck-us.net/T/#t)  |
 | kernel/hwmon/nct6683   | no AMD BC-250 support              |✅ fixed in Linux 6.15-rc1 | [linux-patch](https://lore.kernel.org/linux-hwmon/610dd1b9-c8f1-4ded-a1bb-108121b566d3@roeck-us.net/T/#t)  |
 | mangohud               | broken GPU usage reporting         |⌛ in progress             |                                                                                                                  |  
